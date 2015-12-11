@@ -16,6 +16,7 @@ defmodule ClosedAuction do
      end
   end
 
+
   def get_auctions(html) do
     Floki.find(html, "#closedAuc")
     |> Floki.find(".col-sm-3 p")

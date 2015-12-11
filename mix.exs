@@ -4,7 +4,7 @@ defmodule AhonyaBidScraper.Mixfile do
   def project do
     [app: :ahonyabid_scraper,
      version: "0.0.1",
-     elixir: "~> 1.2-dev",
+     elixir: "~> 1.1.0",
      escript: escript_config,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,

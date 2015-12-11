@@ -35,3 +35,11 @@ market | product              | sold_at | winner
 ```
 
 You can also load the app into your IEX session
+
+
+## Limit
+By default it shows a list of 1000 items. You can restrict it by adding the argument --limit and the number of items you want.
+
+eg;
+
+```# => ./ahonyabid_scraper --limit 5``` which shows the latest 5 
